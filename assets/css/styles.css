@@ -1,0 +1,42 @@
+.wwn-btn {background: #1a49b8 none repeat scroll 0 0; border: medium none; border-radius: 3px; box-shadow: none; color: #fff; cursor: pointer; font-size: 13px; font-weight: bold; padding: 10px 15px; text-shadow: initial; text-transform: uppercase; }
+.wwn-btn:hover {color: #fff; background-color: #3cb0fd; text-decoration: none; }
+.wwn-btn-disabled {background: grey; background-image: none; }
+.wwn-btn-disabled:hover {background: grey; background-image: none; }
+.wwn-btn-ok {background: #02c202; background-image: -webkit-linear-gradient(top, #02c202, #008a02); background-image: -moz-linear-gradient(top, #02c202, #008a02); background-image: -ms-linear-gradient(top, #02c202, #008a02); background-image: -o-linear-gradient(top, #02c202, #008a02); background-image: linear-gradient(to bottom, #02c202, #008a02); }
+.wwn-btn-ok:hover {background: #00db07; background-image: -webkit-linear-gradient(top, #00db07, #02a805); background-image: -moz-linear-gradient(top, #00db07, #02a805); background-image: -ms-linear-gradient(top, #00db07, #02a805); background-image: -o-linear-gradient(top, #00db07, #02a805); background-image: linear-gradient(to bottom, #00db07, #02a805); }
+.wwn-btn-ko {background: #c20404; background-image: -webkit-linear-gradient(top, #c20404, #8a0000); background-image: -moz-linear-gradient(top, #c20404, #8a0000); background-image: -ms-linear-gradient(top, #c20404, #8a0000); background-image: -o-linear-gradient(top, #c20404, #8a0000); background-image: linear-gradient(to bottom, #c20404, #8a0000); }
+.wwn-btn-ko:hover {background: #d90000; background-image: -webkit-linear-gradient(top, #d90000, #a60303); background-image: -moz-linear-gradient(top, #d90000, #a60303); background-image: -ms-linear-gradient(top, #d90000, #a60303); background-image: -o-linear-gradient(top, #d90000, #a60303); background-image: linear-gradient(to bottom, #d90000, #a60303); }
+.wwn-wishlist {margin-top: 2em; }
+.wwn-wishlist tbody td {vertical-align: middle; }
+.wwn-wishlist img {width: 25%; }
+.wwn-btn .fa.fa-clock-o {font-size: 15px; margin-right: 2px; vertical-align: middle; } 
+.wwn-watchlist {clear: both; margin-bottom: 20px; margin-top: 25px; } 
+.wwn-btn-added {color: orange; font-size: 14px; font-weight: bold; } 
+.wwn-watchlist .remove-watchlist {color: #ff0000; font-weight: bold; font-size: 14px; } 
+.wwn-table a.fa {font-size: 15px; padding-right: 15px; } 
+.wwn-table{text-align: center; } .delete-link.fa.fa-trash-o {color: #d60d0d; } 
+.wwn-watchlist .add-on-watchlist {float: right; margin-bottom: 15px; } 
+.add-on-watchlist .add-keyword {background: #000 none repeat scroll 0 0; color: #fff; font-size: 13px; font-weight: bold; padding: 6px 12px; text-transform: uppercase; } 
+.wwn-watchlist .add-keyword-form {border: thin solid #ccc; display:none; clear: both; margin: 25px 0; padding: 30px 0; text-align: center; } 
+.woocommerce .woocommerce-MyAccount-content .wwn-watchlist .add-keyword-form input {border: thin solid #ccc; margin: 15px 0; padding: 8px; width: 90%; } 
+.wwn-watchlist table {border-collapse: collapse; border-spacing: 0; margin: 0 0 1.5em; width: 100%; } 
+.wwn-watchlist td, .wwn-watchlist th {border: 1px solid #ddd; } 
+.wwn-watchlist .add-keyword-form h4 {color: #7a9f3d; font-weight: bold; }
+table.wwn-table.dataTable {clear: both; float: left; margin-top: 25px; }
+.wwn-watchlist .remove {color: #ff0000; font-size: 15px; font-weight: bold; } 
+/*  Add css for login Button*/
+form.login-popup{display: none; background-color: #FFFFFF; border-radius: 8px; font-family: Raleway,sans-serif; box-shadow: 0 0 6px rgba(0, 0, 0, 0.2); position: fixed; top: 160px; padding: 40px 25px 25px 25px; width: 380px; z-index: 999; left: 50%; margin-left: -200px; color: #878787; font-size: 13px; }
+form.login-popup h1{color: #333333; font-family: Raleway,sans-serif; font-size: 27px; font-weight: 300; text-align: center; line-height: 1; margin: 0 0 30px 0; }
+form.login-popup input#username, form#login input#password{border: 1px solid #EDEDED; border-radius: 3px 3px 3px 3px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset; color: #333333; font-size: 15px; padding: 10px 10px 10px 13px; width: 325px; margin: 7px 0 30px 0; background-color: #F9F9F9; font-family: Raleway,sans-serif; }
+form.login-popup input#username:focus,
+form.login-popup input#password:focus{background-color: #FFF; }
+form.login-popup input.submit_button {background: #1a49b8 none repeat scroll 0 0; border: medium none; box-shadow: none; font-size: 13px; color: #FFF; border-radius: 3px; cursor: pointer; padding: 12px 35px; text-shadow: initial; text-transform: uppercase; float: right; }
+form.login-popup a{text-decoration: none; }
+form.login-popup a.close{color: #878787; position: absolute; right: 15px; top: 15px; }
+.wwn-watchlist .login-btn .fa.fa-sign-in {margin-right: 4px; }
+.wwn-watchlist .login-btn {background-color: #1a49b8; border-radius: 3px; color: #fff; font-size: 12px; font-weight: bold; padding: 10px 15px; text-transform: uppercase; } 
+.login_overlay{height: 100%; width: 100%; background-color: #F6F6F6; opacity: 0.9; position: fixed; z-index: 998; } 
+.log_error {color: red; font-weight: bold; position: absolute; left: 25%; top: 25%; }
+.dataTables_wrapper {font-size: 14px;}
+.wwn-watchlist .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {background: #1a49b8 none repeat scroll 0 0; border: 1px solid #1a49b8; color: #fff !important; }
+.wwn-watchlist .dataTables_wrapper .dataTables_paginate .paginate_button {background: #000 none repeat scroll 0 0; color: #fff !important; font-size: 12px; font-weight: 500; padding: 5px 10px; }
